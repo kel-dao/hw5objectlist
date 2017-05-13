@@ -10,7 +10,7 @@
         <script src="index.js" type="text/javascript"></script> 
     </head>
     <body>
-        <button>Add new movie</button>
+        <button id="hidenseek">Add new movie</button>
         <br>
         <br>
         <div id="table">
@@ -27,6 +27,15 @@
         </table>
         </div>
         <div id="form">
+            <form id="myForm">
+                Movie:<br>
+                <input type="text" name="name" value="Movie" id="newmovie">
+                <br>
+                Rating:<br>
+                <input type="text" name="myRating" value="10" id="newrating">
+                <br><br>
+                <input type="submit" value="Submit" id="submit">
+            </form> 
         </div>
     </body>
 </html>
